@@ -1,0 +1,55 @@
+.skill{
+    color: white;
+    padding: 0 0 50px 0;
+    position: relative;
+    margin-top: 100px;
+    height: 100vh;
+}
+.skill-bx{
+    background: #151515;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -30px;
+}
+.skill h5{
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.skill h2{
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.skill p{
+    color: #b8b8b8b8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 16px 0 75px 0;
+}
+.skill-slider{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-left: 16px solid #FDEE30;
+  border-bottom: 16px solid #FDEE30;
+  border-right: 16px solid #FDEE30;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px auto;
+}
+.loader p{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    padding-top: 60px;
+}

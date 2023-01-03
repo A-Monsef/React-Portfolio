@@ -1,0 +1,44 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.me{
+    background-color: #FDEE30;
+    width: 18rem;
+    height: 22rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+}
+.header__social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 200px;
+    bottom: 3rem;
+}
+.header__social a{
+    color: #FDEE30;
+}
+.header__social::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background-color: #FDEE30;
+}
+.heroContainer h5{
+    padding: 20px 0 40px ;
+}
+button{
+    background-color:  #FDEE30 !important;
+    color: black !important;
+    border: none !important;
+}

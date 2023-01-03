@@ -1,0 +1,13 @@
+
+.about{
+    padding: 80px 0;
+    color: white;
+    background-color: black;
+    width: 80%;
+    margin: auto;
+}
+.textAbout p{
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: justify;
+}
