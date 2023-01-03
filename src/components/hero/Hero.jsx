@@ -24,7 +24,7 @@ const Hero = () => {
                 <button type="button" class="btn btn-primary">Let`s Talk</button>
                 <HeaderSocial />
                 <div className="me d-flex justify-content-center align-self-center">
-                    <img src="image/me.png" alt="" />
+                    <img src="image/me1.png" alt="" />
                 </div>
             </div>
         </section>
