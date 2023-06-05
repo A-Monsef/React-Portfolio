@@ -2,3 +2,26 @@ nav a {
     color: #FDEE30 !important;
     font-size: 17px !important;
 }
+/* .navbar {
+  position: sticky;
+  top: 0;
+  background-color: #e52521ed !important;
+  z-index: 999;
+} */
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #FDEE30;
+}

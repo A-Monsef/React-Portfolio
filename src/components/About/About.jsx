@@ -1,19 +1,30 @@
-import "./About.css"
+import "./About.css";
+
 const About = () => {
-    return(
-        <section className="about mt-5" id="about">
-            <h5 className="text-center">Get to know</h5>
-            <h2 className="text-center">About Me</h2>
-            <div className="imageText row d-flex justify-content-center align-items-start mt-5 mx-auto gx-5">
-                <div className="imageAbout col-3">
-                    <img className="img-fluid" src="image/about.png" alt="" />
-                </div>
-                <div className="textAbout col-7">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aperiam consectetur reprehenderit neque id rem corrupti amet soluta. Temporibus eum facilis nobis velit molestiae quas ipsum nostrum ullam, provident, inventore itaque quis dolores nemo? Reprehenderit modi nesciunt magnam. Saepe, ab.</p>
-                <button type="button" class="btn btn-primary mb-4">Let`s Talk</button>
+    return (
+        <section className="about" id="about">
+            <div className="container">
+                <h2 className="text-center mb-2">Get to know</h2>
+                <h3 className="text-center">About Me</h3>
+                <div className="row justify-content-center">
+                    <div >
+                        <div className="aboutContent text-center">
+                            <p>
+                                Welcome to my portfolio! I am excited to showcase my skills and experience in the field of web development.
+                                I am constantly seeking new challenges and opportunities to further enhance my skills and contribute to impactful projects.
+                                Please feel free to explore my portfolio to see examples of my work and learn more about my experience.
+                            </p>
+                            <button type="button" class="btn btn-primary">
+                                <a href="#connect" className="text-decoration-none text-dark">Let's Talk</a>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-    )
-}
-export default About
+    );
+};
+
+export default About;
+
+

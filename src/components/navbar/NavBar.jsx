@@ -2,6 +2,8 @@ import "./NavBar.css"
 
 
 const NavBar = () => {
+
+
     return (
       <nav class="navbar navbar-expand-lg bg-transparent">
         <div class="container">

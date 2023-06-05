@@ -5,54 +5,6 @@ import { collection, onSnapshot } from "firebase/firestore";
 import "./Portfolio.css";
 import ProjectCard from "./ProjectCard";
 
-const myProjects = [
-  {
-    title: "Business Startup",
-    description: "Design & Development",
-    imgUrl: "image/project-img1.png",
-  },
-  {
-    title: "Business Startup",
-    description: "Design & Development",
-    imgUrl: "image/project-img2.png",
-  },
-  {
-    title: "Business Startup",
-    description: "Design & Development",
-    imgUrl: "image/project-img2.png",
-  },
-  {
-    title: "Business Startup",
-    description: "Design & Development",
-    imgUrl: "image/project-img2.png",
-  },
-  {
-    title: "Business Startup",
-    description: "Design & Development",
-    imgUrl: "image/project-img2.png",
-  },
-  {
-    title: "Business Startup",
-    description: "Design & Development",
-    imgUrl: "image/project-img2.png",
-  },
-  {
-    title: "Business Startup",
-    description: "Design & Development",
-    imgUrl: "image/project-img2.png",
-  },
-  {
-    title: "Business Startup",
-    description: "Design & Development",
-    imgUrl: "image/project-img2.png",
-  },
-  {
-    title: "Business Startup",
-    description: "Design & Development",
-    imgUrl: "image/project-img2.png",
-  },
-];
-
 const Portfolio = () => {
   const [projects, setProjects] = useState([]);
 
@@ -73,23 +25,10 @@ const Portfolio = () => {
           <Col>
             <h2>Projects</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-              aliquid eveniet error, nulla dicta impedit quidem quis
-              exercitationem iure vero, accusantium molestias natus maxime
-              dolore mollitia laudantium quae consequatur unde.
+              Welcome to my project portfolio! Here, 
+              I present a selection of projects that showcase my skills.
             </p>
             { <Tab.Container id="projects-tabs" defaultActiveKey="first">
-              {/*<Nav variant="pills" defaultActiveKey="/home">
-                <Nav.Item>
-                  <Nav.Link eventKey="First">Tab One</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="Second">Tab two</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="Third">Tab Three</Nav.Link>
-                </Nav.Item>
-              </Nav>*/}
               <Tab.Content>
                 <Tab.Pane eventKey="first">
                   <Row>

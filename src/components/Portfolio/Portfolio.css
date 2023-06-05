@@ -1,4 +1,5 @@
 .project {
+  
   position: relative;
   background-color: black;
   width: 90%;
@@ -19,6 +20,7 @@
   text-align: center;
   width: 56%;
   padding: 40px;
+  width: auto;
 }
 .project .nav.nav-pills {
   width: 72%;

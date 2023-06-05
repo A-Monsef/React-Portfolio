@@ -1,6 +1,6 @@
 .contact {
   background: linear-gradient(90.21deg, #FDEE30 -5.91%, #0f1a06 111.58%);
-  padding: 80px 40px 150px 0;
+  padding: 30px 10px 30px 0;
   width: 80%;
   margin: 60px auto;
   border-radius: 5rem;
@@ -57,11 +57,11 @@
   position: relative;
 }
 .contact form button:hover {
-  color: #fff !important;
+  color: rgb(216, 245, 209) !important;
 }
 .contact form button::before {
   content: "";
-  background: #232525a9 !important;
+  background: #3ce50da9 !important;
   width: 0;
   height: 100%;
   position: absolute;

@@ -1,44 +1,85 @@
-.hero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  
 }
-.me{
-    background-color: #FDEE30;
-    width: 18rem;
-    height: 22rem;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translate(-50%);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+
+.me {
+  background-color: #FDEE30;
+  width: 18rem;
+  height: 22rem;
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  position: relative; /* Add position relative for absolute positioning of social icons */
+ 
 }
-.header__social{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    left: 200px;
-    bottom: 3rem;
+
+.header__social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute; /* Position absolute for independent positioning */
+  right: 65rem; /* Adjust positioning as desired */
+  bottom: 10rem; /* Adjust positioning as desired */
 }
-.header__social a{
-    color: #FDEE30;
+
+.header__social a {
+  color: #FDEE30;
 }
+
 .header__social::after {
-    content: "";
-    width: 1px;
-    height: 2rem;
-    background-color: #FDEE30;
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background-color: #FDEE30;
 }
-.heroContainer h5{
-    padding: 20px 0 40px ;
+
+.heroContainer {
+  padding: 2rem;
 }
-button{
-    background-color:  #FDEE30 !important;
-    color: black !important;
-    border: none !important;
+
+button {
+  background-color: #FDEE30 !important;
+  color: black !important;
+  border: none !important;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 575.98px) {
+  .me {
+    width: 100%;
+    height: auto;
+    margin: 2rem 0;
+    border-radius: 0;
+    position: static; /* Reset position for normal document flow */
+  }
+
+  .header__social {
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+    position: static; /* Reset position for normal document flow */
+  }
+
+  .header__social::after {
+    display: none;
+  }
+}
+
+/* Responsive styles for tablet */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .me {
+    width: 22rem;
+    height: 26rem;
+  }
+
+  .header__social {
+    position: static; /* Reset position for normal document flow */
+    margin-top: 2rem;
+    gap: 0.8rem;
+  }
 }
