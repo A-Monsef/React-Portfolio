@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.86ab89ae.css",
-    "main.js": "/React-Portfolio/static/js/main.2d71d5a9.js",
+    "main.css": "/React-Portfolio/static/css/main.c96a7119.css",
+    "main.js": "/React-Portfolio/static/js/main.67d8d957.js",
     "static/js/787.aeca62f9.chunk.js": "/React-Portfolio/static/js/787.aeca62f9.chunk.js",
     "static/media/revicons.eot": "/React-Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/React-Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/React-Portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/logo.svg": "/React-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/React-Portfolio/index.html",
-    "main.86ab89ae.css.map": "/React-Portfolio/static/css/main.86ab89ae.css.map",
-    "main.2d71d5a9.js.map": "/React-Portfolio/static/js/main.2d71d5a9.js.map",
+    "main.c96a7119.css.map": "/React-Portfolio/static/css/main.c96a7119.css.map",
+    "main.67d8d957.js.map": "/React-Portfolio/static/js/main.67d8d957.js.map",
     "787.aeca62f9.chunk.js.map": "/React-Portfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86ab89ae.css",
-    "static/js/main.2d71d5a9.js"
+    "static/css/main.c96a7119.css",
+    "static/js/main.67d8d957.js"
   ]
 }
